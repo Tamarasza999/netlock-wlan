@@ -1,4 +1,4 @@
-# Network Hardening & WLAN Security
+# Network Hardening and WLAN Security
 
 ### Tools Extended
 - Packet Tracer: Network simulation and topology validation  
