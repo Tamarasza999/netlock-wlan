@@ -41,11 +41,11 @@ name Guest
 ip access-group Guest-Policy in</code></pre>
 
 WPA2-Enterprise Setup:  
-[<img src="media/image14.png" width="400" alt="WPA2-Enterprise 802.1X Setup"/>](media/image14.png)
+<img src="screenshots/image14.png" width="400" alt="WPA2-Enterprise 802.1X Setup"/>
 
 Guest Network Isolation:
 
-<img src="media/image11.png" width="400" alt="Guest Network VLAN Configuration"/>
+<img src="screenshots/image11.png" width="400" alt="Guest Network VLAN Configuration"/>
 
 **Tools Used**  
 
@@ -55,13 +55,14 @@ Supporting Configuration:
 <pre><code>cisco
 R1(config)#radius server RADIUS  // Points to ISE server
 R1(config-radius-server)#address ipv4 192.168.2.253 auth-port 1645/</code></pre>
-[<img src="media/image5.png" width="400" alt="Cisco ISE Policy Setup"/>](media/image5.png)
+<img src="screenshots/image5.png" width="400" alt="Cisco ISE Policy Setup"/>
 
 Cisco Packet Tracer Topology:  
-[<img src="media/image83.png" width="400" alt="Zero Trust Network Diagram"/>](media/image83.png)  
+<img src="screenshots/image83.png" width="400" alt="Zero Trust Network Diagram"/>
 
 NetStumbler for WLAN Auditing:
-[<img src="media/image12.png" width="400" alt="Wireless Network Discovery"/>](media/image12.png)
+
+<img src="screenshots/image12.png" width="400" alt="Wireless Network Discovery"/>
 
 ---
 
@@ -76,13 +77,14 @@ NetStumbler for WLAN Auditing:
 **Implementation Summary**  
 
 Device Authentication Logs:  
-[<img src="media/image0.png"  width="400" alt="RADIUS Authentication Logs"/>](media/image43.png)  
+<img src="screenshots/image0.png"  width="400" alt="RADIUS Authentication Logs"/>
 
 Suricata IDS Alerts:  
-[<img src="media/image1.png" width="400" alt="Suricata SYN Flood Detection"/>](media/image56.png)
+<img src="screenshots/image1.png" width="400" alt="Suricata SYN Flood Detection"/>
 
 Squid Proxy Implementation:
-[<img src="media/image22.png" width="400" alt="Suricata SYN Flood Detection"/>](media/image22.png)
+
+<img src="screenshots/image22.png" width="400" alt="Suricata SYN Flood Detection"/>
 
 ---
 
