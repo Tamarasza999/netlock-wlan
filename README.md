@@ -1,13 +1,13 @@
 # Network Hardening and WLAN Security
 
-### Tools Extended
+### Tools Extended  
 - Packet Tracer: Network simulation and topology validation  
-- CLI (Command Line Interface): Manual interaction with operating systems and network devices
-- RADIUS Server: AAA authentication server for enterprise WLAN
-- NetStumbler: WLAN discovery and auditing  
-- Suricata: IDS/IPS detection and alerting for network attacks  
+- CLI: Manual interaction with operating systems and network devices  
+- RADIUS Server: AAA authentication for enterprise WLAN  
+- NetStumbler: Wireless network discovery and auditing  
+- Suricata: IDS/IPS detection and alerting tool  
 - Squid Proxy: HTTP proxy for access control and traffic filtering  
-- Kali Linux: Penetration testing and stress-testing validation   
+- Kali Linux: Attacker operating system for testing
 
 ## Network Infrastructure Hardening
 
